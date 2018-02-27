@@ -1,5 +1,7 @@
 *.judge
 judge/temp
+judge/codes
+judge/*.zip
 
 
 ###Linux###
