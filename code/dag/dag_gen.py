@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from random import randrange
+from random import randrange, randint
 
 
 class DAG:
@@ -44,7 +44,11 @@ class DAG:
 
 def main():
     dag = DAG(1000, 600)
-    print(dag)
+    print("\n".join([
+        "%d %d %d" % (dag.v, dag.e, randint(0, dag.v)),
+        "\n".join(["%d" % randint(100, 1000) for i in range(dag.v)]),
+        "%s" % dag
+    ]))
 
 
 if __name__ == '__main__':
