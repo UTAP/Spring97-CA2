@@ -45,7 +45,7 @@ class DAG:
 def main():
     dag = DAG(1000, 600)
     print("\n".join([
-        "%d %d %d" % (dag.v, dag.e, randint(0, dag.v)),
+        "%d %d %d" % (dag.v, dag.e, randint(0, dag.v - 1)),
         "\n".join(["%d" % randint(100, 1000) for i in range(dag.v)]),
         "%s" % dag
     ]))
