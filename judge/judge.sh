@@ -5,7 +5,7 @@
 # https://gitlab.com/snippets/1697878
 
 EXE=a.out
-COMPILER="g++ -o $EXE"
+COMPILER="g++ -Wall -o $EXE"
 VERBOSE=true
 DEST_DIR="codes"
 TEMP_DIR="temp"
