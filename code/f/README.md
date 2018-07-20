@@ -4,7 +4,7 @@
 
 ‫تابع f به شکل زیر روی دنباله‌ای از اعداد تعریف می‌شود:
 
-f(a, n) = a<sub>0</sub> - a<sub>1</sub> + a<sub>2</sub> - &hellip; &plusmn; a<sub>n-1</sub>
+<div dir="ltr">f(a, n) = a<sub>0</sub> - a<sub>1</sub> + a<sub>2</sub> - &hellip; &plusmn; a<sub>n-1</sub></div>
 
 ‫برنامه‌ای بنویسید که مقدار این تابع را به‌شکل بازگشتی محاسبه کند.
 
@@ -14,6 +14,6 @@ f(a, n) = a<sub>0</sub> - a<sub>1</sub> + a<sub>2</sub> - &hellip; &plusmn; a<su
 
 ### ‫خروجی
 
-‫خروجی شامل یک خط است که مقدار f(a, n) را نمایش می‌دهد.
+‫خروجی شامل یک خط است که مقدار <span dir="ltr">‪f(a, n)‬</span> را نمایش می‌دهد.
 
 </div>
